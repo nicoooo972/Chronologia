@@ -1,0 +1,1 @@
+<label for='suite'> Suite de : <select name='dmcsuite' class='suite'> <option value='0'>--Please choose an option--</option> </select>

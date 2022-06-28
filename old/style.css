@@ -1,0 +1,279 @@
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+ @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    };
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor : middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    };
+  }
+
+#sect{
+    text-shadow: 1px 1px 2px black;
+  }
+
+img.card-img-top{
+  border-image-slice: 30%;
+
+}
+
+/* TimeLine */
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 240px 0;
+  color: #000000;
+}
+
+.box-timeline {
+  width: 100%;
+  height: 4050px;
+  background: #f1f1f1;
+  position: relative;
+  padding: 80px 0 250px 0;
+  margin-bottom: 100px;
+}
+
+.ligne {
+  height: 100%;
+  width: 8px;
+  margin: 0 auto;
+  background: #333;
+}
+
+.rond {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #333;
+  position: absolute;
+  border: 1px solid #000;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+/* 1000 - 160 + 80 / 13 =~ 306 */
+.r1{top: 80px;}
+.r2{top: 386px;}
+.r3{top: 692px;}
+.r4{top: 1000px;}
+.r5{top: 1306px;}
+.r6{top: 1612px;}
+.r7{top: 1918px;}
+.r8{top: 2224px;}
+.r9{top: 2530px;}
+.r10{top: 2836px;}
+.r11{top: 3142px;}
+.r12{top: 3448px;}
+.r13{top: 3754px;}
+.r14{top: 4060px;}
+
+.box {
+  color: #333;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  border-radius: 3px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.b1 {
+  top: 80px;
+  left: calc(45% - 270px);
+}
+.b2 {
+  top: 386px;
+  left: calc(55% + 270px);
+}
+.b3 {
+  top: 692px;
+  left: calc(45% - 270px);
+}
+.b4 {
+  top: 1000px;
+  left: calc(55% + 270px);
+}
+
+.b5 {
+  top: 1306px;
+  left: calc(45% - 270px);
+}
+
+.b6 {
+  top: 1612px;
+  left: calc(55% + 270px);
+}
+
+.b7 {
+  top: 1918px;
+  left: calc(45% - 270px);
+}
+
+.b8 {
+  top: 2224px;
+  left: calc(55% + 270px);
+}
+
+.b9 {
+  top: 2530px;
+  left: calc(45% - 270px);
+}
+
+.b10 {
+  top: 2836px;
+  left: calc(55% + 270px);
+}
+
+.b11 {
+  top: 3142px;
+  left: calc(45% - 270px);
+}
+
+.b12 {
+  top: 3448px;
+  left: calc(55% + 270px);
+}
+
+.b13 {
+  top: 3754px;
+  left: calc(45% - 270px);
+}
+
+.b14 {
+  top: 4060px;
+  left: calc(55% + 270px);
+}
+
+
+.box p {
+  line-height: 20px;
+  font-size: 18px;
+  margin: 10px 0 20px 0;
+}
+.btn {
+  display: block;
+  background: midnightblue;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  color: #f1f1f1;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .ligne {
+      position: relative;
+      left: 200px;
+  }
+  .rond {
+      left: calc(50% + 200px);
+  }
+  .box {
+      left: calc(41% - 50px)
+  }
+
+}
+
+/*    */
+
+.ml16 {
+  color: #000000;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}

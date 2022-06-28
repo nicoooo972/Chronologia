@@ -1,0 +1,1 @@
+<!DOCTYPE html><html'><head><?php include("http://stanime.fr/head.php"); ?></head><body><?php include("http://stanime.fr/nav.php"); ?><?php include("http://stanime.fr/titreimgsyn.php"); ?></body><script src="assets/js/jquery.js"></script><script src="assets/js/bootstrap.js"></script></html>
